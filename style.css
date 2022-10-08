@@ -329,6 +329,7 @@ hr {
 	border-radius: 8px;
 	box-shadow:2px 2px 5px 5px rgb(239, 237, 237);
 	cursor: pointer;
+	background-repeat: no-repeat;
 	
 }
 .child-1:hover, .child-2:hover, .child-3:hover, .child-4:hover, .child-5:hover,.child-6:hover{
