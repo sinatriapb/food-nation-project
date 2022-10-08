@@ -1,0 +1,407 @@
+/* // => SECTION 1 ---------------------------------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;1,100&display=swap');
+
+html,body {
+	margin:0;
+	padding: 0;
+	font-family: 'Noto Sans', sans-serif;
+	background: #FFF5EC;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	background: #FFF5EC;
+	width: 100%;
+	height: 720px;
+	position: relative;
+
+}
+.nav {
+	display:flex;
+	flex-direction:row;
+	width: 600px;
+	height: 70px;
+	background: #FFF5EC;
+	flex-grow:1;
+	
+	
+}
+li {
+	display: inline;
+	margin-top: 10px;
+}
+.nav  a{
+	
+	color: #2E266F;
+	text-align: center;
+	padding: 24px 50px;
+	text-decoration: none;
+	font-size: 18px;
+	font-family: 'Noto Sans', sans-serif;
+	color: #2E266F;
+	font-weight: bold;
+}
+
+
+.food {
+	width: 550px;
+	height: 550px;
+	position:absolute;
+	top: 150px;
+	left: 700px;
+
+}
+.lettuce {
+	width: 400px;
+	height: 400px;
+	position:absolute;
+	top: 50px;
+	left: 800px;
+}
+.dots {
+	width: 250px;
+	height: 250px;
+	position:absolute;
+	top: 170px;
+	left: 720px;
+	rotate: 90(deg);
+}
+.dots1 {
+	width: 250px;
+	height: 250px;
+	position:absolute;
+	top: 390px;
+	left: 720px;
+	rotate: 90(deg);
+}
+.side-block {
+	width: 350px;
+	height: 720px;
+	background: #EFC81A;
+	
+}
+.user-elipse {
+	display:flex;
+	align-items:center;
+	flex-direction:row;
+	width: 45px;
+	height: 45px;
+	left: 150px;
+	top: 15px;
+	border-radius:50%;
+	background: white;
+	position: relative;
+	border : 1px solid lightgrey;
+	cursor: pointer;
+}
+.user {
+	width: 30px;
+	height: 30px;
+	margin-left: 7px;
+	margin-bottom: 7px;
+	
+}
+.login {
+	padding-left: 12px;
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: bold;
+	color: #2E266F;
+}
+
+.heading {
+	position:absolute;
+	top: 220px;
+	left: 80px;
+	font-family: 'Noto Sans', sans-serif;
+	color: #2E266F;
+	font-weight: 10px;
+	font-size: 25px;
+
+}
+.search {
+	position:absolute;
+	display:block;
+	font-family: 'Noto Sans', sans-serif;
+	align-items: center;
+	top: 400px;
+	left:80px;
+	width: 400px;
+	height: 50px;
+	border-radius: 5px;
+	background:white;
+	box-shadow: 2px 2px 2px 2px lightgrey;
+}
+.input {
+	margin-top: 8px;
+	height: 30px;
+	width: 300px;
+	border: 1px solid grey;
+	border-radius: 5px;
+
+}
+.cari {
+	margin-left: 20px;
+	margin-right: 20px;
+	
+}
+
+/* //=>END OF SECTON 1-------------------------------------------------
+//=>START OF SECTON 2-------------------------------------------------*/
+#section-two {
+	height: 100vh;
+	width: 100%;
+}
+.title {
+	/* background: #2E266F; */
+	width: 300px;
+	height: 70px;
+	display: flex;
+	justify-content: center;
+}
+.stripe {
+	width: 20px;
+	height: 70px;
+	background: #EFC81A;
+}
+.subtitle {
+	width: auto;
+	height: 70px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-left: 10px;
+
+}
+.subtitle p {
+	font-size: 22px;
+	color:#2E266F;
+	font-weight: bolder;
+}
+.card-wrapper {
+	width: 900px;
+	height: 500px;
+	/* background: cyan; */
+	display: flex;
+	justify-content: space-between;
+}
+
+.inner-1 {
+	width: 50%;
+	height: auto;
+	/* background:#2E266F; */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+	
+}
+.inner-2 {
+	width: 50%;
+	height: auto;
+	/* background: #EFC81A; */
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: center;
+	
+	
+}
+.bg1{
+	width: 300px;
+	height: 400px;
+}
+.bg2{
+	width: 300px;
+	height: 400px;
+	z-index: -1;
+}
+
+.card-image1 {
+	width: 400px;
+	height: auto;
+	margin-top: -200px;
+}
+.card-image2 {
+	width: 400px;
+	height: auto;
+	margin-bottom: -400px;
+}
+/*//=>END OF SECTON 2------------------------------------------------- */
+/* // => SECTION 3---------------------------------------------------- */
+#section-three {
+	width: 100%;
+	height: 100vh;
+}
+.flex-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 500px;
+	margin-top: 30px;
+}
+.item-1{
+	width: 50%;
+	height: 100%;
+	display: flex;
+}
+.item-2{
+	width: 60%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.overlap-panel {
+	width: 45%;
+	height: 90%;
+	background-color: #EFC81A;
+}
+.overlap-image {
+	width: 75%;
+	height: 100%;
+	background-image: url(img/Rectangle\ 313.png);
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-left: -200px;
+	margin-top: 20px;
+}
+
+.content h1 {
+	font-size: 2em;
+	color: #3F3A3A;
+	margin-bottom: 10px;
+}
+.content p {
+	font-size: 16px;
+	color: #3F3A3A;
+	margin-top: 10px;
+}
+.line {
+	display: inline-flex;
+}
+hr {
+	width: 60px;
+	height: 4px;
+	background-color: gray;
+	margin:0;
+}
+.content button {
+	width: 120px;
+	height: 35px;
+	border-radius: 5px;
+	border: none;
+	background-color: #EFC81A;
+	color: white;
+	cursor: pointer;
+	margin-top: 20px;
+}
+.content button:hover{
+	border: 2px solid gray;
+}
+/*//=>END OF SECTON 3------------------------------------------------- */
+/* // => SECTION 4---------------------------------------------------- */
+#section-four {
+	width: 100%;
+	height: 130vh;
+}
+.grid{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows:1fr 1fr;
+	margin: 40px auto auto auto;
+	width: 88%;
+	height: 80%;
+	
+	
+
+}
+.child-1, .child-2, .child-3, .child-4, .child-5, .child-6 {
+	background-position: center;
+	background-size: 100%;
+	margin:20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+	border-radius: 8px;
+	box-shadow:2px 2px 5px 5px rgb(239, 237, 237);
+	cursor: pointer;
+	
+}
+.child-1:hover, .child-2:hover, .child-3:hover, .child-4:hover, .child-5:hover,.child-6:hover{
+	border: 2px solid #3F3A3A;
+}
+.child-1{
+	background-image: url(img/Rectangle\ 314.png);
+	
+}
+.child-2{
+	background-image: url(img/Rectangle\ 315.png);
+	
+}
+.child-3{
+	background-image: url(img/Rectangle\ 316.png);
+	
+}
+.child-4{
+	background-image: url(img/Rectangle\ 317.png);
+	
+}
+.child-5{
+	background-image: url(img/Rectangle\ 318.png);
+	
+}
+.child-6{
+	background-image: url(img/Rectangle\ 319.png);
+	
+}
+.text {
+	margin-left: 20px;
+	color: #3F3A3A;;
+}
+/*//=>END OF SECTON 4------------------------------------------------- */
+/* // => FOOTER ---------------------------------------------------- */
+#footer{
+	width: 100%;
+	height: 80vh;
+	display: grid;
+	grid-template-columns: 100%;
+	grid-template-rows: 1.5fr auto;
+	align-content: center;
+	justify-content: center;
+	background-color: #EFC81A;
+}
+.footer-text{
+ align-self: center;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+.head{
+	color: #2E266F;
+	font-size: 50px;
+}
+.sub {
+	color: #707070;
+	margin: 0;
+	font-size: 16	px;
+}
+.bottom-nav{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+
+}
+.bottom-nav li {
+	padding: 35px;
+	font-size: 14px;
+	color: #707070;
+	cursor: pointer;
+}
+.bottom-nav li:hover{
+	color: #3F3A3A;
+	font-weight: bold;
+}
